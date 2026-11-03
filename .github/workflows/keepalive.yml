@@ -2,8 +2,8 @@ name: Keepalive Workflow
 
 on:
   schedule:
-    # 每月 1 号和 15 号北京时间早晨 8 点 (UTC 0:00) 运行一次
-    - cron: '0 0 1,15 * *'
+    # 每月 1 号北京时间早晨 8 点 (UTC 0:00) 运行一次
+    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 jobs:
